@@ -11,4 +11,4 @@ button3 = tk.Button(base, text='ピンク').place(x=180,y=100) #左から3番目
 button4 = tk.Button(base, text='黄').place(x=240,y=100) #左から4番目のボタン名と位置
 button5 = tk.Button(base, text='緑').place(x=300,y=100) #左から5番目のボタン名と位置
 
-base.quit()
+base.mainloop()

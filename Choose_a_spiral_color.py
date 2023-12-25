@@ -40,7 +40,7 @@ def btn5():
 #ボタンの作成・位置指定
  #ウィンドウ内のメッセージ
 label = tk.Label(base, text='好きな色のボタンを押して')
-label.pack()
+label.place(x=120,y=50)
 
  #青
 btn1 = tk.Button(base, text='青',command=btn1)
